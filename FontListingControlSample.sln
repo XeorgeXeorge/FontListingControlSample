@@ -5,18 +5,25 @@ VisualStudioVersion = 15.0.28307.106
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FontListingControlSample", "FontListingControlSample\FontListingControlSample.csproj", "{ABB1D85B-B2EE-4465-BF77-B544896BCD7F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FontPickerControl", "FontListingControl\FontPickerControl.csproj", "{6834EFF4-9785-4BB7-ABD3-B030A6FB81A4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
 		Debug|ARM = Debug|ARM
 		Debug|ARM64 = Debug|ARM64
 		Debug|x64 = Debug|x64
 		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
 		Release|ARM = Release|ARM
 		Release|ARM64 = Release|ARM64
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ABB1D85B-B2EE-4465-BF77-B544896BCD7F}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{ABB1D85B-B2EE-4465-BF77-B544896BCD7F}.Debug|Any CPU.Build.0 = Debug|x86
+		{ABB1D85B-B2EE-4465-BF77-B544896BCD7F}.Debug|Any CPU.Deploy.0 = Debug|x86
 		{ABB1D85B-B2EE-4465-BF77-B544896BCD7F}.Debug|ARM.ActiveCfg = Debug|ARM
 		{ABB1D85B-B2EE-4465-BF77-B544896BCD7F}.Debug|ARM.Build.0 = Debug|ARM
 		{ABB1D85B-B2EE-4465-BF77-B544896BCD7F}.Debug|ARM.Deploy.0 = Debug|ARM
@@ -29,6 +36,7 @@ Global
 		{ABB1D85B-B2EE-4465-BF77-B544896BCD7F}.Debug|x86.ActiveCfg = Debug|x86
 		{ABB1D85B-B2EE-4465-BF77-B544896BCD7F}.Debug|x86.Build.0 = Debug|x86
 		{ABB1D85B-B2EE-4465-BF77-B544896BCD7F}.Debug|x86.Deploy.0 = Debug|x86
+		{ABB1D85B-B2EE-4465-BF77-B544896BCD7F}.Release|Any CPU.ActiveCfg = Release|x86
 		{ABB1D85B-B2EE-4465-BF77-B544896BCD7F}.Release|ARM.ActiveCfg = Release|ARM
 		{ABB1D85B-B2EE-4465-BF77-B544896BCD7F}.Release|ARM.Build.0 = Release|ARM
 		{ABB1D85B-B2EE-4465-BF77-B544896BCD7F}.Release|ARM.Deploy.0 = Release|ARM
@@ -41,6 +49,26 @@ Global
 		{ABB1D85B-B2EE-4465-BF77-B544896BCD7F}.Release|x86.ActiveCfg = Release|x86
 		{ABB1D85B-B2EE-4465-BF77-B544896BCD7F}.Release|x86.Build.0 = Release|x86
 		{ABB1D85B-B2EE-4465-BF77-B544896BCD7F}.Release|x86.Deploy.0 = Release|x86
+		{6834EFF4-9785-4BB7-ABD3-B030A6FB81A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6834EFF4-9785-4BB7-ABD3-B030A6FB81A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6834EFF4-9785-4BB7-ABD3-B030A6FB81A4}.Debug|ARM.ActiveCfg = Debug|ARM
+		{6834EFF4-9785-4BB7-ABD3-B030A6FB81A4}.Debug|ARM.Build.0 = Debug|ARM
+		{6834EFF4-9785-4BB7-ABD3-B030A6FB81A4}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{6834EFF4-9785-4BB7-ABD3-B030A6FB81A4}.Debug|ARM64.Build.0 = Debug|ARM64
+		{6834EFF4-9785-4BB7-ABD3-B030A6FB81A4}.Debug|x64.ActiveCfg = Debug|x64
+		{6834EFF4-9785-4BB7-ABD3-B030A6FB81A4}.Debug|x64.Build.0 = Debug|x64
+		{6834EFF4-9785-4BB7-ABD3-B030A6FB81A4}.Debug|x86.ActiveCfg = Debug|x86
+		{6834EFF4-9785-4BB7-ABD3-B030A6FB81A4}.Debug|x86.Build.0 = Debug|x86
+		{6834EFF4-9785-4BB7-ABD3-B030A6FB81A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6834EFF4-9785-4BB7-ABD3-B030A6FB81A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6834EFF4-9785-4BB7-ABD3-B030A6FB81A4}.Release|ARM.ActiveCfg = Release|ARM
+		{6834EFF4-9785-4BB7-ABD3-B030A6FB81A4}.Release|ARM.Build.0 = Release|ARM
+		{6834EFF4-9785-4BB7-ABD3-B030A6FB81A4}.Release|ARM64.ActiveCfg = Release|ARM64
+		{6834EFF4-9785-4BB7-ABD3-B030A6FB81A4}.Release|ARM64.Build.0 = Release|ARM64
+		{6834EFF4-9785-4BB7-ABD3-B030A6FB81A4}.Release|x64.ActiveCfg = Release|x64
+		{6834EFF4-9785-4BB7-ABD3-B030A6FB81A4}.Release|x64.Build.0 = Release|x64
+		{6834EFF4-9785-4BB7-ABD3-B030A6FB81A4}.Release|x86.ActiveCfg = Release|x86
+		{6834EFF4-9785-4BB7-ABD3-B030A6FB81A4}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

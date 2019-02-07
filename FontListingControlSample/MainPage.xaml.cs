@@ -13,12 +13,13 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 
-// The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
-
+ 
 namespace FontListingControlSample
 {
     /// <summary>
-    /// An empty page that can be used on its own or navigated to within a Frame.
+    /// hey hey what do you know there is no code here,
+    /// well in fact binding is a cool system that allows just that,
+    /// look up the xaml part and FontPickerControl lib.
     /// </summary>
     public sealed partial class MainPage : Page
     {
